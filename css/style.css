@@ -1,0 +1,143 @@
+.h1 {
+    color: gray;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.shopsBlock {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    width: 850px;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin: 40px 100px 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    width: 170px;
+    margin: 15px 20px 15px 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main-link {
+    display: flex;
+
+    height: 25px;
+    padding: 5px 20px 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+
+.main-link:hover {
+    background-color: aqua;
+}
+
+
+.name {
+    color: white;
+
+
+}
+
+.prise {
+    color: white;
+    background-color: grey;
+}
+
+h1::first-letter {
+    color: aqua;
+}
+
+.itempage {
+    padding: 0px 10px 0px 10px;
+    color: grey;
+}
+
+.itempage:hover {
+    color: aqua;
+}
+
+
+
+.news {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.newsitems {
+    height: 270px;
+    width: 270px;
+
+}
+
+.image {
+    background-color: grey;
+}
+
+.button {
+    background-color: aqua;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+
+.nameNews::after {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 100px;
+    height: 3px;
+    background-color: aqua;
+    content: "";
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.nameNews {
+    color: grey;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
